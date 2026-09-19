@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Roboto;
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  min-width: 54.75rem;
+}
+
+.card {
+  width: 51.25rem;
+  background-color: #fff;
+  border-radius: 0.625rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0 0.5 1.5rem rgba(0, 0, 0, 0.08);
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.25rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.logo-fatec {
+  width: 10.125rem; /* Define largura fixa do logo Fatec. */
+  height: 3.875rem; /* Define altura fixa do logo Fatec. */
+}
+
+.logo-dsm {
+  width: 22.3125rem; /* Define largura fixa do logo DSM. */
+  height: 7.4375rem; /* Define altura fixa do logo DSM. */
+}
+
+.logo-cps {
+  width: 12rem; /* Define largura fixa do logo CPS. */
+  height: 8rem; /* Define altura fixa do logo CPS. */
+}
+
+.course-text {
+  line-height: 1.65; /* Aumenta o espaçamento entre linhas para melhorar leitura. */
+  text-align: justify; /* Alinha o texto nas duas margens. */
+}
+
+.action {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.btn-link {
+  background-color: rgb(121, 121, 206);
+  padding: 0.7rem 1rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 0;
+}
+
+.btn-link:hover {
+  background-color: rgb(58, 58, 209);
+}
+
+.btn-secundary {
+    background-color: gray;
+}
+
+.btn-secundary:hover {
+    background-color: rgb(87, 86, 86);
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.auth-form label {
+    font-weight: 500;
+}
+
+.auth-form input {
+    padding: 0.7rem 0.8rem;
+    border-radius: 0.5rem;
+    border: 0.025rem solid rgba(rgb(73, 70, 70), rgb(68, 153, 68), rgb(82, 82, 177), alpha);
+    font: inherit;
+}
+
+.link {
+    color: rgb(58, 58, 209);
+    text-decoration: none;
+    font-weight: 700;
+}
+
